@@ -1,0 +1,321 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.2.5 Chrome/138.0.7204.251 Electron/37.6.1 Safari/537.36" version="28.2.5">
+  <diagram id="page-1" name="ER Diagram (editable)">
+    <mxGraphModel dx="1930" dy="1273" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ent_student" value="STUDENT" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="160" y="80" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_course" value="COURSE" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="200" y="420" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_teacher" value="TEACHER" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="420" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_notice" value="NOTICE_BOARD" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="80" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_study" value="STUDY_MATERIAL" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="340" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ent_sched" value="COURSE_SCHEDULE" style="shape=rectangle;whiteSpace=wrap;html=1;rounded=0;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="620" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="att_sid" value="id" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_sid" value="" style="endArrow=none;html=1;" parent="1" source="att_sid" target="ent_student" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_name" value="name" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_name" value="" style="endArrow=none;html=1;" parent="1" source="att_name" target="ent_student" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_fname" value="firstname" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="180" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_fname" value="" style="endArrow=none;html=1;" parent="1" source="att_fname" target="ent_student" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_sname" value="surname" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="240" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_sname" value="" style="endArrow=none;html=1;" parent="1" source="att_sname" target="ent_student" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_edu" value="education" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="250" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_edu" value="" style="endArrow=none;html=1;" parent="1" source="att_edu" target="ent_student" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_addr" value="address" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="140" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_addr" value="" style="endArrow=none;html=1;" parent="1" source="att_addr" target="ent_student" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_dob" value="DoB" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="50" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_dob" value="" style="endArrow=none;html=1;" parent="1" source="att_dob" target="ent_student" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_gender" value="gender" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="420" y="200" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_gender" value="" style="endArrow=none;html=1;" parent="1" source="att_gender" target="ent_student" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_cid" value="id" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_cid" value="" style="endArrow=none;html=1;" parent="1" source="att_cid" target="ent_course" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_title" value="title" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="100" y="620" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_title" value="" style="endArrow=none;html=1;" parent="1" source="att_title" target="ent_course" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_duration" value="duration" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_duration" value="" style="endArrow=none;html=1;" parent="1" source="att_duration" target="ent_course" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_lessons" value="no of lessons" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="540" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_lessons" value="" style="endArrow=none;html=1;" parent="1" source="att_lessons" target="ent_course" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_syllabus" value="syllabus" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="680" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_syllabus" value="" style="endArrow=none;html=1;" parent="1" source="att_syllabus" target="ent_course" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_assignments_num" value="No of assignments" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="400" y="660" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_assignments_num" value="" style="endArrow=none;html=1;" parent="1" source="att_assignments_num" target="ent_course" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_credits" value="credits" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="600" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_credits" value="" style="endArrow=none;html=1;" parent="1" source="att_credits" target="ent_course" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_tid" value="id" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_tid" value="" style="endArrow=none;html=1;" parent="1" source="att_tid" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_tname" value="name" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_tname" value="" style="endArrow=none;html=1;" parent="1" source="att_tname" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_tfname" value="firstname" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_tfname" value="" style="endArrow=none;html=1;" parent="1" source="att_tfname" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_tsname" value="surname" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="580" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_tsname" value="" style="endArrow=none;html=1;" parent="1" source="att_tsname" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_city" value="city" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="460" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_city" value="" style="endArrow=none;html=1;" parent="1" source="att_city" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_tdob" value="DoB" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="520" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_tdob" value="" style="endArrow=none;html=1;" parent="1" source="att_tdob" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_qual" value="qualification" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="580" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_qual" value="" style="endArrow=none;html=1;" parent="1" source="att_qual" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_gender_t" value="gender" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="640" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_gender_t" value="" style="endArrow=none;html=1;" parent="1" source="att_gender_t" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_exp" value="experience" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1380" y="400" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_exp" value="" style="endArrow=none;html=1;" parent="1" source="att_exp" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_sm_id" value="id" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="660" y="270" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_sm_id" value="" style="endArrow=none;html=1;" parent="1" source="att_sm_id" target="ent_study" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_notes" value="notes" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_notes" value="" style="endArrow=none;html=1;" parent="1" source="att_notes" target="ent_study" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_assignments" value="assignments" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="220" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_assignments" value="" style="endArrow=none;html=1;" parent="1" source="att_assignments" target="ent_study" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_qpapers" value="question papers" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="280" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_qpapers" value="" style="endArrow=none;html=1;" parent="1" source="att_qpapers" target="ent_study" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_start" value="start_date" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="700" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_start" value="" style="endArrow=none;html=1;" parent="1" source="att_start" target="ent_sched" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_end" value="end_date" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="760" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_end" value="" style="endArrow=none;html=1;" parent="1" source="att_end" target="ent_sched" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_cid_fk" value="C_id" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="700" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_cid_fk" value="" style="endArrow=none;html=1;" parent="1" source="att_cid_fk" target="ent_sched" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_tid_fk" value="T_id" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="760" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_tid_fk" value="" style="endArrow=none;html=1;" parent="1" source="att_tid_fk" target="ent_sched" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_nid" value="id" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1060" y="20" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_nid" value="" style="endArrow=none;html=1;" parent="1" source="att_nid" target="ent_notice" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_notice" value="notice" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1430" y="20" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_notice" value="" style="endArrow=none;html=1;" parent="1" source="att_notice" target="ent_notice" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_subject" value="subject" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="180" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_subject" value="" style="endArrow=none;html=1;" parent="1" source="att_subject" target="ent_notice" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="att_ndate" value="date" style="shape=ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1240" y="20" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e_att_ndate" value="" style="endArrow=none;html=1;" parent="1" source="att_ndate" target="ent_notice" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="rel_registers" value="registers" style="shape=rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_has" value="has" style="shape=rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="340" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_checks" value="checks" style="shape=rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="760" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_updates" value="updates" style="shape=rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_shares" value="shares" style="shape=rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="930" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_follows" value="follows" style="shape=rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="860" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rel_assigned" value="assigned to" style="shape=rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="840" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e_student_registers" value="M" style="endArrow=none;html=1;" parent="1" source="ent_student" target="rel_registers" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_registers_course" value="1" style="endArrow=none;html=1;" parent="1" source="rel_registers" target="ent_course" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_course_has" value="1" style="endArrow=none;html=1;" parent="1" source="ent_course" target="rel_has" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_has_study" value="M" style="endArrow=none;html=1;" parent="1" source="rel_has" target="ent_study" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_student_checks" value="M" style="endArrow=none;html=1;" parent="1" source="ent_student" target="rel_checks" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_checks_notice" value="1" style="endArrow=classic;html=1;" parent="1" source="rel_checks" target="ent_notice" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_teacher_updates" value="M" style="endArrow=none;html=1;" parent="1" source="ent_teacher" target="rel_updates" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_updates_notice" value="1" style="endArrow=none;html=1;exitX=0.918;exitY=0.073;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="ent_teacher" target="ent_notice" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_teacher_shares" value="M" style="endArrow=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" parent="1" source="ent_teacher" target="rel_shares" edge="1">
+          <mxGeometry as="geometry">
+            <Array as="points">
+              <mxPoint x="1270" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_shares_study" value="1" style="endArrow=none;html=1;" parent="1" source="rel_shares" target="ent_study" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_sched_to_follows" value="1" style="endArrow=none;html=1;" parent="1" source="ent_sched" target="rel_follows" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_follows_course" value="" style="endArrow=none;html=1;" parent="1" target="ent_course" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_follows_course2" value="M" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="rel_follows" target="ent_course" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_follows_teacher2" value="M" style="endArrow=none;html=1;" parent="1" source="rel_follows" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_assigned_sched" value="1" style="endArrow=none;html=1;" parent="1" source="ent_sched" target="rel_assigned" edge="1">
+          <mxGeometry as="geometry" />
+        </mxCell>
+        <mxCell id="e_assigned_teacher" value="M" style="endArrow=none;html=1;entryX=0.61;entryY=0.997;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="rel_assigned" target="ent_teacher" edge="1">
+          <mxGeometry as="geometry">
+            <Array as="points">
+              <mxPoint x="1234" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
